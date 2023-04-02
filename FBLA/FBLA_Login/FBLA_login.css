@@ -1,0 +1,111 @@
+html{
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    overflow-x: hidden;
+    height: 100%;
+}
+
+#backgroundLOG{
+    background-color: rgb(91, 85, 85);
+    width: 100vw;
+    height: 100vh;
+}
+
+#LoginBox{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80vw;
+    height: 80vh;
+    background-color: beige;
+}
+
+#wordbox{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:#e4c2ac;
+    font-family: 'Varela Round','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3.5vw;
+    font-weight: 900;
+}
+
+#wordbox h2{
+    transform: translatex(3%);
+}
+
+#Name{
+    border-color: transparent;
+    font-size: 1.5vw;
+    text-align: center;
+    width:23vw;
+    transform: translatex(33%);
+    height: 3vw;
+    background-color: rgb(255, 255, 255);
+    border-radius: 2vw;
+    margin:0.5vw 0vw 0.5vw 0vw ;
+    color:#867569;
+}
+
+#email{
+    border-color: transparent;
+    font-size: 1.5vw;
+    text-align: center;
+    width:23vw;
+    transform: translatex(33%);
+    height: 3vw;
+    background-color: rgb(255, 255, 255);
+    border-radius: 2vw;
+    margin:0.5vw 0vw 0.5vw 0vw ; 
+    color:#867569;
+}
+
+#password{
+    border-color: transparent;
+    font-size: 1.5vw;
+    text-align: center;
+    width:23vw;
+    transform: translatex(33%);
+    height: 3vw;
+    background-color: rgb(255, 255, 255);
+    border-radius: 2vw;
+    margin:0.5vw 0vw 0.5vw 0vw ; 
+    color:#867569;
+}
+
+::placeholder{
+    color:inherit;
+}
+
+
+#terms{
+    font-size: 1.5vw;
+    color: #e4c2ac ;
+    transform: translatex(10%);
+}
+
+#termsa{
+    font-size: 1.5vw;
+    color: #4fb8f5 ;
+}
+
+
+#signupbtn{
+    border-color: transparent;
+    font-size: 1.5vw;
+    text-align: center;
+    width:21vw;
+    height: 3vw;
+    background-color: rgb(59, 212, 110);
+    border-radius: 2vw;
+    transform: translatex(39%);
+    margin:0.5vw 0vw 0.5vw 1.5vw ; 
+    color:#ffffff;
+    padding-top: 1vw;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
+}
